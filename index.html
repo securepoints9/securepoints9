@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecurePoint - Coming Soon</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Animate.css CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Section -->
+    <div class="container animate__animated animate__fadeIn">
+        <!-- Logo -->
+        <div class="logo animate__animated animate__bounceInDown">
+            <img src="securepoint-logo.png" alt="SecurePoint Logo">
+        </div>
+
+        <!-- Company Name -->
+        <h1 class="company-name animate__animated animate__fadeInUp">SECURE POINT</h1>
+        <p class="tagline animate__animated animate__fadeInUp">SECURITY SERVICES</p>
+
+        <!-- Coming Soon Text -->
+        <div class="coming-soon animate__animated animate__zoomIn">
+            <h2>WE ARE COMING SOON</h2>
+            <p>Our website is under construction. Stay tuned!</p>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="contact-info animate__animated animate__fadeInUp">
+            <p><strong>Dharmendra Choudhary</strong> - Director | <a href="tel:8053469459">8053469459</a></p>
+            <p><strong>Umeed Dewasi</strong> - Director | <a href="tel:6376912054">6376912054</a></p>
+            <p>Email: <a href="mailto:securepoints9@gmail.com">securepoints9@gmail.com</a></p>
+        </div>
+        
+        <!-- Address -->
+        <div class="address animate__animated animate__fadeInUp">
+            <p>195-A, Shakti Nagar, Ramaliyawala Road, Sikar Road, Jaipur - 302013 (Rajasthan)</p>
+            <p><a href="https://securepoints9.github.io/" target="_blank">Visit Our Page</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<style>
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url('marble-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7); /* Dark transparent box */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+    max-width: 600px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.logo img {
+    width: 150px;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+.company-name {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.coming-soon h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #f1c40f;
+}
+
+.coming-soon p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #f1c40f;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    color: #e67e22;
+}
+
+.address p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.address a {
+    color: #f1c40f;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.address a:hover {
+    text-decoration: underline;
+    color: #e67e22;
+}
+
+/* Keyframe Animation for Fade-In */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
